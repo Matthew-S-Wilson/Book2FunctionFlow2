@@ -1,0 +1,14 @@
+const addFunction = (num1, num2) => {
+ return num1 + num2
+}
+const problem1 = addFunction(3,11)
+console.log(problem1)
+
+const multiplyFunction =  (num1) => {
+ return num1 * 2
+}
+const problem2 = multiplyFunction(5)
+console.log(problem2)
+
+const problem3 = multiplyFunction(problem1)
+console.log(problem3)
